@@ -16,13 +16,11 @@ body {
 
 .container {
     background: white;
-    max-width: 800px; /* Adjust this value as needed */
-    width: 100%; /* Ensure container takes full width up to max-width */
+    max-width: 800px;
+    margin: 60px auto;
+    height: auto;
     padding: 20px;
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
-    margin: 0 auto; /* Center container horizontally */
-    overflow: hidden; /* Hide overflow to prevent text from hanging out */
-    min-height: calc(100vh - 40px); /* Ensure container takes full viewport height minus padding */
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 3);
 }
 
 .header {
@@ -117,5 +115,6 @@ h2 {
     .container {
         padding: 40px; /* Increase padding for better spacing on larger screens */
         max-width: 900px; /* Adjust max-width if needed */
+        height: auto;
     }
 }
